@@ -1,0 +1,1 @@
+This is *Piccolo 2 Client* developed by [Dr Magnus Hagdorn](https://bitbucket.org/magnus_hagdorn/). It provides a programming interface in Python to enable the Piccolo instrument to be controlled over a network or radio link. There are several related repositories: piccolo2-server, piccolo2-common and piccolo2-player.

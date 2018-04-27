@@ -1,0 +1,84 @@
+2017-02-27 Magnus Hagdorn
+ * piccolo2/player/PlayerApp.py: fail gracefully if player becomes
+   disconnected
+ * piccolo2/player/ScheduleList.py: ditto
+
+2017-02-27 Magnus Hagdorn
+ * piccolo2/player/PlayerApp.py: use new dialog to select spectrum
+ * piccolo2/player/player.ui: use push button to select spectrum
+ * piccolo2/player/SpectraList.py: new dialog to select spectrum
+ * piccolo2/player/spectralist.ui: ui for new dialog
+
+2017-02-24 Magnus Hagdorn
+ * piccolo2/player/PlayerApp.py: hook up autointegration options
+ * piccolo2/player/player.ui: add GUI elements to setup autointegration
+
+2017-02-23 Magnus Hagdorn
+ * piccolo2/player/PlayerApp.py: display warning messages
+
+2017-02-23 Magnus Hagdorn
+ * piccolo2/player/PlayerApp.py: add autointegrate button
+ * piccolo2/player/player.ui: ditto
+
+2017-02-22 Mangus Hagdorn
+ * piccolo2/player/PlayerApp.py: listen for messages to update integration time
+   display
+
+2017-02-15 Magnus Hagdorn
+ * setup.py: list build dependency in correct place
+
+2017-02-14 Magnus Hagdorn
+ * piccolo2/player/PlayerApp.py: handle new status
+
+2017-02-14 Magnus Hagdorn
+ * piccolo2/player/PlayerApp.py: use new status class
+
+2016-08-08 Magnus Hagdorn
+ * piccolo2/player/player.ui: add button to record dark spectra
+ * piccolo2/player/PlayerApp.py: hook up button
+
+2016-05-19 Magnus Hagdorn
+ * piccolo2/pplayer.py: add logging
+
+2016-05-18 Magnus Hagdorn
+ * piccolo2/player/PlayerApp.py: get list of spectra from selected directory
+
+2016-05-17 Magnus Hagdorn
+ * piccolo2/player/SpectraPlot.py: zoom on scroll wheel
+
+2016-04-29 Magnus Hagdorn
+ * piccolo2/player/PlayerApp.py: add option to sync time and show mount
+   directory
+ * piccolo2/player/player.ui: populate status tab with time and mount mount
+
+2016-04-29 Magnus Hagdorn
+ * piccolo2/player/PlayerApp.py: always exect to get a PiccoloSpectraList when
+   getSpectra is called
+ * piccolo2/player/SpectraPlot.py: minor tidy up
+
+2016-04-29 Magnus Hagdorn
+ * piccolo2/player/PlayerApp.py: need to check whether incoming spectra is
+   already a spectra list
+ * piccolo2/player/SpectraPlot.py: update spectra as more data becomes available
+
+2016-04-28 Magnus Hagdorn
+ * piccolo2/player/PlayerApp.py: attempt to catch status if the xbee is busy
+   communicating
+ * piccolo2/pplayer.py: add command line option to connect to xbee
+
+2016-04-27 Magnus Hagdorn
+ * piccolo2/player/PlayerApp.py: hookup xbee client
+
+2016-04-06 Magnus Hagdorn
+ * README.md: updated
+ * setup.py: add metadata
+
+2016-04-06 Magnus Hagdorn
+ * started ChangeLog
+ * use setuptools
+ * add requirements.txt
+ * rename piccolo-player.pyw to piccolo2/pplayer.py
+ * delete piccolo2/player/Makefile, get setup tools to build python files
+ * piccolo2/player/PlayerApp.py: rename module files
+ * piccolo2/player/Schedule.py: ditto
+ * piccolo2/player/ScheduleList.py: ditto

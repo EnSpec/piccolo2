@@ -1,0 +1,1 @@
+This repository contains the Python code for Piccolo Server which runs on a Raspberry Pi. It was eveloped by [Dr Magnus Hagdorn](https://bitbucket.org/magnus_hagdorn/). There are several related repositories: piccolo2-common, piccolo2-client and piccolo2-player

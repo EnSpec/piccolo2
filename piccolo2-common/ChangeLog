@@ -1,0 +1,44 @@
+2017-02-22 Magnus Hagdorn
+ * piccolo2/PiccoloStatus.py: add new status flag
+
+2017-02-16 Magnus Hagdorn
+ * piccolo2/PiccoloSpectra.py: minor fix
+
+2017-02-14 Magnus Hagdorn
+ * piccolo2/PiccoloStatus.py: add flag indicating that the file number was 
+   automatically incremented to avoid overwriting data
+
+2017-02-14 Magnus Hagdorn
+ * piccolo2/PiccoloStatus.py: add class for handling status flags
+
+2016-09-07 Magnus Hagdorn
+ * piccolo2/PiccoloSpectra.py: fix clobber
+
+2016-09-07 Magnus Hagdorn
+ * piccolo2/PiccoloSpectra.py: optionally split spectra files into dark and
+   light spectra
+
+2016-05-19 Magnus Hagdorn
+ * piccolo2/PiccoloSpectra.py: clip spectra at 200000 to avoid overflows
+
+2016-05-02 Magnus Hagdorn
+ * add documentation
+ * piccolo2/PiccoloSpectra.py: improve docstrings
+ * piccolo2/PiccoloWorkerThread.py: ditto
+
+2016-04-29 Magnus Hagdorn
+ * piccolo2/PiccoloSpectra.py: add method to check if all spectra are complete
+
+2016-04-29 Magnus Hagdorn
+ * piccolo2/PiccoloSpectra.py: add chunking to piccolo spectra classes
+
+2016-04-28 Magnus Hagdorn
+ * piccolo2/PiccoloWorkerThread.py: moved from piccolo2-server
+
+2016-04-06 Magnus Hagdorn
+ * README.md: updated
+ * setup.py: add metadata
+
+2016-04-06 Magnus Hagdorn
+ * started ChangeLog
+ * use setuptools
